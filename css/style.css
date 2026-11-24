@@ -1,0 +1,162 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style-type:none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common CSS End */
+
+
+/* Header Part Start */
+#headerPart{
+    padding: 30px 0;
+    background: #07110d;
+}
+.headeFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+   align-items: center; 
+   column-gap: 50px;
+   
+}
+.menu ul{
+    display: flex;
+    column-gap: 40px;
+}
+.menu ul li a{
+    color: #9DB3A8;
+    font-size: 15PX;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.menu .headerBtn{
+    padding: 12px 22px;
+    background: #1fb57f;
+    border-radius: 999px;
+    color: #07110d;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bannertPart{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #07110d;
+}
+.bannerLeft{
+    width: 60%;
+}
+.bannerRight{
+    width: 40%;
+    position: relative;
+
+}
+.bannerRight img{
+    width: 100%;
+}
+
+.bannerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rankCard{
+    padding: 18px 22px;
+    background: #07110d;
+    border-radius: 18px;
+    position: absolute;
+    bottom: 20px;
+}
+.rankCard h3{
+    color: #f4efe6;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 28px;
+      }
+.rankCard p{
+    color: #f4efe6;
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+       font-size: 13px;
+
+}
+.bannerLeft h4{
+    color: #1f857f;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+       font-size: 13px;
+     text-transform: uppercase;
+     }
+.bannerLeft h1{
+     color: #f4efe6;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 148px;
+      width: 456px;
+      line-height: 88%;
+      padding-top: 45px;
+      padding-bottom: 30px;
+      }
+.bannerLeft p{
+    color: #9DB3A8;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 155%;
+    width: 560px;
+}
+.bannerBtn{
+    display: flex;
+    align-items:center ;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+.bannerBtn a {
+     padding: 16px 28px;
+    background: #f42a41;
+    border-radius: 999px;
+    color: #f4efe6;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    
+border: 1px solid #f42a41;
+transition: .4s;
+
+}
+.bannerBtn a:hover{
+    background: transparent;
+    border: 1px solid #9db3a8;
+}
+
+
+
+
+/* Banner Part End */
+
+
